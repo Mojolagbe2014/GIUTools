@@ -22,7 +22,7 @@ function varargout = GaussTool(varargin)
 
 % Edit the above text to modify the response to help GaussTool
 
-% Last Modified by GUIDE v2.5 18-Jul-2016 04:10:58
+% Last Modified by GUIDE v2.5 21-Aug-2016 10:46:06
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -330,4 +330,3 @@ if ~isempty(newMinMax)
     handles.centerSlider.Max = str2double(newMinMax{1});
     handles.centerSlider.Min = str2double(newMinMax{2});
 end
-
